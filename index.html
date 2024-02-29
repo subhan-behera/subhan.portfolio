@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | By Subhan</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Subhan</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#Certifications" class="nav-link">Certifications</a>
+                    <div class="circle"></div>
+                </li>
+
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="SUBHAN_RESUME.pdf"><button class="btn">Download CV <i class="uil uil-file-alt"></i></button></a>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>SUBHAN BEHERA</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Experienced frontend developer with a passion for creating visually stunning
+                   and user-friendly websites.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Hire Me</button>
+                <a href="SUBHAN_RESUME.pdf"><button class="btn">Download CV <i class="uil uil-file-alt"></i></button><a href="SUBHAN_RESUME.pdf"></a>
+            </div>
+            <div class="social_icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-dribbble"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/img.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                       frameworks and libraries,which allows me to implement interactive features.
+                       Additionally, I have experirence working with content management systems (CMS) like
+                       UI/UX Design.
+                    </p>
+                    <div class="about-btn">
+                        <a href="SUBHAN_RESUME.pdf"><button class="btn">Download CV <i class="uil uil-import"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                        <span>UI/UX Design</span>
+                        <span>WordPress</span>
+                        <span>React</span>
+                        
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>JAVA</span>
+                        <span>Servlet</span>
+                        <span>Python</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+             <pre>           </pre>
+            
+                <h3 align="center" style="color:navy">ELIBRARY MANAGEMENT SYSTEMS</h3>
+                
+                <label align="center">Project Description : An E-Library Management System is a web application developed with HTML, CSS, 
+                    Servlets, and MySQL, designed to efficiently organize and manage digital library resources, including books, 
+                    documents, and user information.</label>
+            </div>
+            <div class="project-box">
+               
+                <h3 align="center" style="color:navy">BANKING MANAGEMENT <br/>SYSTEM</h3>
+                <label align="center">Project Description : Develop a comprehensive Banking Management System in Java with Swing GUI for efficient and user-friendly banking operations and transactions.</label>
+            </div>
+            <div class="project-box">
+                
+                <h3 align="center" style="color:navy"> HOTEL MANAGEMENT SYSTEM</h3>
+                    JavaScript to streamline reservations, guest services, and administrative tasks.</label>
+            </div>
+            <div class="project-box">
+              
+                <h3 align="center" style="color:navy">CALCULATOR APP</h3>
+                <label align="center">The calculator app project aims to develop a user-friendly mobile application for basic arithmetic calculations, enhancing convenience and accessibility for users on-the-go.
+                </label>
+            </div>
+            <div class="project-box">
+                
+                <h3 align="center" style="color:navy">PROJECT MANAGEMENT <br/>SYSTEM</h3>
+                <label align="center">A project management system is a comprehensive tool designed to streamline planning, organizing, tracking, and collaborating on projects, enabling efficient resource allocation and progress monitoring.</label>
+            </div>
+            <div class="project-box">
+               
+                <h3 align="center" style="color:navy">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+                <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                    and facilitate banking transactions. </label>
+            </div>
+            <div class="project-box">
+                <h3 align="center" style="color:navy">TEMPERATURE CONVERTER<br/>APP</h3>
+                <label align="center">Project Description : Developed a sleek and intuitive temperature converter 
+                    app using HTML, CSS, and JavaScript, allowing users to effortlessly switch between Celsius and
+                     Fahrenheit with just one click. </label>
+            </div>
+            <div class="project-box">
+                <h3 align="center" style="color:navy">BANKING MANAGEMENT<br/>SYSTEMS</h3>
+                <label align="center">Project Description : Developed a comprehensive Banking Management System in Java with 
+                    Swing GUI for efficient and user-friendly banking operations and transactions.</label>
+            </div>
+            <div class="project-box">
+                <h3 align="center" style="color:navy">VOICE ASSISTANCE<br/>APP</h3>
+                <label align="center">Project Description : Developed a Python voice assistance app in a single line of code, enabling users to interact through voice 
+                    commands for various tasks such as weather updates, web searches, reminders, and more</label>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="Certifications">
+        <div class="top-header">
+            <h1>Certifications</h1>
+        </div>
+        <div class="project-container">
+          <div class="project-box">
+              <!-- <h3 align="center">GENERATIVE AI</h3> -->
+              <img src="./assets/images/genai.png" alt="myphoto" height="100%" width="100%">
+              <!-- <label align="center">Project Description : An E-Library Management System is a web application developed with.</label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer1.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">BANKING MANAGEMENT <br/>SYSTEM</h3>
+              <label align="center">Project Description : Develop a comprehensive Banking Management System in Java with Swing GUI for efficient and user-friendly banking operations and transactions.</label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer23.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer2.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">HOTEL MANAGEMENT SYSTEM</h3>
+              <label align="center">Project Description : Develop a Hotel Management System web application using HTML, CSS, and 
+                  JavaScript to streamline reservations, guest services, and administrative tasks.</label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer3.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">CALCULATOR APP</h3>
+              <label align="center">The calculator app project aims to develop a user-friendly mobile application for basic arithmetic calculations, enhancing convenience and accessibility for users on-the-go.
+              </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer4.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">PROJECT MANAGEMENT <br/>SYSTEM</h3>
+              <label align="center">A project management system is a comprehensive tool designed to streamline planning, organizing, tracking, and collaborating on projects, enabling efficient resource allocation and progress monitoring.</label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer5.jpg" alt="myphoto" height="100%" width="100%">
+            <!-- <h3 align="center">PROJECT MANAGEMENT <br/>SYSTEM</h3>
+            <label align="center">A project management system is a comprehensive tool designed to streamline planning, organizing, tracking, and collaborating on projects, enabling efficient resource allocation and progress monitoring.</label> -->
+        </div>
+        <div class="project-box">
+            <img src="./assets/images/cer6.jpg" alt="myphoto" height="100%" width="100%">
+            <!-- <h3 align="center">PROJECT MANAGEMENT <br/>SYSTEM</h3>
+            <label align="center">A project management system is a comprehensive tool designed to streamline planning, organizing, tracking, and collaborating on projects, enabling efficient resource allocation and progress monitoring.</label> -->
+        </div>
+        <div class="project-box">
+            <img src="./assets/images/cer7.jpg" alt="myphoto" height="100%" width="100%">
+            <!-- <h3 align="center">PROJECT MANAGEMENT <br/>SYSTEM</h3>
+            <label align="center">A project management system is a comprehensive tool designed to streamline planning, organizing, tracking, and collaborating on projects, enabling efficient resource allocation and progress monitoring.</label> -->
+        </div>
+        <div class="project-box">
+            <img src="./assets/images/cer8.jpg" alt="myphoto" height="100%" width="100%">
+            <!-- <h3 align="center">PROJECT MANAGEMENT <br/>SYSTEM</h3>
+            <label align="center">A project management system is a comprehensive tool designed to streamline planning, organizing, tracking, and collaborating on projects, enabling efficient resource allocation and progress monitoring.</label> -->
+        </div>
+          <div class="project-box">
+            <img src="./assets/images/cer9.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer12.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer11.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer13.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer14.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer15.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer16.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer17.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer18.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer19.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer20.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer21.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer22.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/cer24.jpg" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+          <div class="project-box">
+            <img src="./assets/images/wsa.png" alt="myphoto" height="100%" width="100%">
+              <!-- <h3 align="center">ATM MACHINE PROJECT USING <br/>C LANGUAGE.</h3>
+              <label align="center">Project Description : This project aims to develop an ATM Machine system using the C language to simulate 
+                  and facilitate banking transactions. </label> -->
+          </div>
+        </div>
+     </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in Touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email:<br/>subhanbehera.official@gmail.com</p>
+                    <p align="left"><i class="uil uil-phone"></i> Mob: +91 8018011233</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>SUBHAN BEHERA .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#Certifications">Certifications</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><i class="uil uil-instagram"></i></div>
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-dribbble"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Subhan Behera</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
